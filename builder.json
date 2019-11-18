@@ -1,0 +1,50 @@
+{
+    "projectName":"Projeto",
+    "description":"Descrição",
+    "folders":[
+            "javascript",
+            "componentes"
+    ],
+    "pdo":{
+        "host":"localhost",
+        "driver":"mysql",
+        "dbName":"banco",
+        "username":"root",
+        "password":"",
+        "file":"teste.sql"
+    },
+    "routes":{
+        "defaults":{
+            "test": "teste",
+            "test/:int": "testeInt",
+            "test/:string": "testeString"
+        },
+        "errorPage": "http://localhost/Projetos/ComposerTests/view/404.php"
+    },
+    "classes":{
+        "nome":["asd"],
+        "nome2":["eqwe"]
+    },
+    "tables":{
+        "tabela":[
+            {
+                "id":"int"
+            },
+            {
+                "tabela2_id":"INT",
+                "id":"tabela2"
+            },
+            {
+                "nome":"str"
+            }
+        ],
+        "tabela2":[
+            {
+                "id":"int"
+            },
+            {
+                "nome":"str"
+            }
+        ]
+    }
+}
